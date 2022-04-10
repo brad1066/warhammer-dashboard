@@ -1,0 +1,11 @@
+body {
+    display: grid;
+    grid-template-areas: "header" "site-nav" "main" "footer";
+    grid-template-rows: $size__header-height auto 1fr auto;
+    grid-template-columns: 1fr;
+}
+
+header { grid-area: header; }
+nav.site-nav { grid-area: site-nav; }
+main { grid-area: main; }
+footer { grid-area: footer; }

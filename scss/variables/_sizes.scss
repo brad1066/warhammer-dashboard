@@ -1,0 +1,13 @@
+$breakpoint__min-desktop: 40rem;
+$breakpoint__mid-desktop: 60rem;
+$breakpoint__lrg-desktop: 80rem;
+
+$size__header-height: 6rem;
+
+:root {
+    --breakpoint__min-desktop: $breakpoint__min-desktop;
+    --breakpoint__mid-desktop: $breakpoint__mid-desktop;
+    --breakpoint__lrg-desktop: $breakpoint__lrg-desktop;
+
+    --size__header-height: 6rem;
+}

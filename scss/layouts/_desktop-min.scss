@@ -1,0 +1,7 @@
+@media screen and (min-width: $breakpoint__min-desktop) {
+    body {
+        grid-template-areas: "site-nav header" "site-nav main" "site-nav footer";
+        grid-template-rows: $size__header-height 1fr auto;
+        grid-template-columns: auto 1fr;
+    }
+}

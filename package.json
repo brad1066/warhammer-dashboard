@@ -1,0 +1,27 @@
+{
+    "name": "warhammer-dashboard",
+    "version": "1.0.0",
+    "description": "*by Bradley Hastings*",
+    "main": "./js/theme.js",
+    "scripts": {
+      "dev": "sass ./scss:./styles --watch"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/brad1066/warhammer-dashboard.git"
+    },
+    "keywords": [],
+    "author": "brad1066",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/brad1066/warhammer-dashboard/issues"
+    },
+    "homepage": "https://github.com/brad1066/warhammer-dashboard#readme",
+    "devDependencies": {
+      "sass": "^1.49.7"
+    },
+    "dependencies": {
+      "jquery": "^3.6.0"
+    }
+  }
+  
